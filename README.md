@@ -1,6 +1,6 @@
 # reddit-crawling
 
-This repository includes reddit crawling 2 different ways. Praw and BeautifulSoup. I crawled reddit praw and I use token. And I crawled reddit BeautifulSoup. 
+This repository includes reddit crawling 2 different ways. Praw and BeautifulSoup. I crawled reddit praw and I use token. And I crawled reddit BeautifulSoup too. 
 You need to enter the searched word from the console, and if you run main.py you should enter Reddit API token. 
 
 
@@ -14,10 +14,12 @@ Link : https://www.reddit.com/prefs/apps
 ## I added requirements.txt. 
 
 Package Needs: 
-pip install protobuf (I installed 4 version)  
-pip install pika
+pip install pika  
+Praw 7.6.1
 RabbitMQ 3.11.3
 Erlang 25.1.2
+pip install protobuf (I installed 4 version)  
+
 
 # STEP 2
 
