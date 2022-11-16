@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+// Not necessary for Python but should still be declared to avoid name collisions 
+// in the Protocol Buffers namespace and non-Python languages
+package protoblog;
+
+// Style guide prefers prefixing enum values instead of surrounding
+// with an enclosing message
+enum TaskState {
+    counts_comment = 0;
+    score = 1;
+    title = 2;
+    selftext = 3;
+}
