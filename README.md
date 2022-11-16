@@ -3,7 +3,8 @@
 This repository includes reddit crawling 2 different ways. Praw and BeautifulSoup. I crawled reddit praw and I use token. And I crawled reddit BeautifulSoup too. 
 You need to enter the searched word from the console, and if you run main.py you should enter Reddit API token. 
 
-
+for scraping with praw : main.py
+for scraping with bs4 : alternativeMain.py
 
 # STEP 1
 
